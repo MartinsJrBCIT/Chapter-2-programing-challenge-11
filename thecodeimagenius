@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float gallon=20;
+    float mpgtown=23.5;
+    float mpghwy=28.9;
+    float distancetown=gallon*mpgtown;
+    float distancehwy=gallon*mpghwy;
+
+    cout<<distancetown<<" Average miles per gallon in the town"<<endl;
+    cout<<distancehwy<< " Average miles per gallon in the highway"<<endl;
+    return 0;
+}
